@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "role": "admin",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password123",
+      "role": "user",
+      "createdAt": "2024-01-02T00:00:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "Acme Corporation",
+      "email": "contact@acme.com",
+      "phone": "+1-555-0101",
+      "company": "Acme Corporation",
+      "createdAt": "2024-01-15T00:00:00.000Z",
+      "updatedAt": "2024-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Tech Solutions Inc",
+      "email": "info@techsolutions.com",
+      "phone": "+1-555-0102",
+      "company": "Tech Solutions Inc",
+      "createdAt": "2024-01-16T00:00:00.000Z",
+      "updatedAt": "2024-01-16T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Global Enterprises",
+      "email": "hello@globalent.com",
+      "phone": "+1-555-0103",
+      "company": "Global Enterprises",
+      "createdAt": "2024-01-17T00:00:00.000Z",
+      "updatedAt": "2024-01-17T00:00:00.000Z"
+    }
+  ],
+  "leads": [
+    {
+      "id": "1",
+      "title": "Website Redesign Project",
+      "description": "Complete website redesign and development for Acme Corporation's new product launch",
+      "status": "New",
+      "value": 25000,
+      "customerId": "1",
+      "createdAt": "2024-01-20T00:00:00.000Z",
+      "updatedAt": "2024-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Mobile App Development",
+      "description": "Custom mobile application development for iOS and Android platforms",
+      "status": "Contacted",
+      "value": 50000,
+      "customerId": "2",
+      "createdAt": "2024-01-21T00:00:00.000Z",
+      "updatedAt": "2024-01-22T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Cloud Migration Services",
+      "description": "Migration of existing infrastructure to cloud-based solutions",
+      "status": "Converted",
+      "value": 75000,
+      "customerId": "3",
+      "createdAt": "2024-01-18T00:00:00.000Z",
+      "updatedAt": "2024-01-25T00:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "E-commerce Platform",
+      "description": "Development of custom e-commerce platform with payment integration",
+      "status": "Lost",
+      "value": 40000,
+      "customerId": "1",
+      "createdAt": "2024-01-19T00:00:00.000Z",
+      "updatedAt": "2024-01-24T00:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "Data Analytics Dashboard",
+      "description": "Custom analytics dashboard with real-time reporting capabilities",
+      "status": "New",
+      "value": 30000,
+      "customerId": "2",
+      "createdAt": "2024-01-23T00:00:00.000Z",
+      "updatedAt": "2024-01-23T00:00:00.000Z"
+    }
+  ]
+}
